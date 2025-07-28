@@ -2,10 +2,10 @@ package main
 
 import (
 	"bufio"
+	"calculator/pkg/calculator"
 	"fmt"
 	"os"
 	"strings"
-	"yandex24/pkg/calculator"
 )
 
 func main() {

@@ -1,1 +1,1 @@
-module yandex24
+module calculator
