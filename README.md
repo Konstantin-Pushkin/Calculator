@@ -58,12 +58,21 @@ go run cmd/calculator/main.go
 
 ### Вариант 2: через Docker
 
-#### 1. Соберите Docker-образ командой
+#### 1. Склонируйте репозиторий
+
+Откройте терминал и выполните:
+
+```bash
+git clone https://github.com/Konstantin-Pushkin/Calculator.git
+cd Calculator
+```
+
+#### 2. Соберите Docker-образ командой
 ```bash
 docker build -t go-calculator .
 ```
 
-#### 2. Запустите контейнер
+#### 3. Запустите контейнер
 ```bash
 docker run -p 8080:8080 go-calculator
 ```
